@@ -1,0 +1,50 @@
+color 06
+color 44
+color 7
+color 7D
+color 5D
+color A8
+color D7
+color E8
+color B7
+color B0
+color B8
+cd Desktop
+mkdir Atividade01
+dir
+cd Atividade01
+echo Nota01.txt
+dir
+echo Atividade01 >> Nota01.txt
+dir
+echo Arquivo >> Nota01.txt
+echo Arquivo teste >> Nota02.txt
+type Nota02.txt
+fc <Nota01.txt> <Nota02.txt>
+fc <Nota01.txt><Nota02.txt>
+fc Nota01.txt Nota02.txt
+dir 
+cd ..
+cd Backup
+md Backup
+dir
+cd Backup
+copy Nota01.txt Backup
+cd ..
+cd Atividade01
+copy Nota01.txt Backup
+copy Nota02.txt Backup
+NÆo
+copy Nota02.txt Backup
+Sim
+copy Nota01.txt Backup
+cd ..
+copy Nota01.txt Backup
+copy Atividade01 Backup
+del/s Atividade01
+S
+tasklist
+doskey/ history
+doskey /hystory
+doskey /history
+doskey /history >> Nathalia.txt
