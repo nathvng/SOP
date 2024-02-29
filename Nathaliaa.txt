@@ -1,0 +1,50 @@
+doskey /hystory
+doskey /history
+doskey /history >> Nathalia.txt
+cls
+ren Atividade01 Trabalhos
+mkdir Documentos
+cd Documentos
+echo teste >> Projetos
+echo teste >> Projetos.txt
+echo teste1 >> Pessoais.txt
+move Trabalhos Documentos
+cd ..
+move Trabalhos Documentos
+move Backup Documentos
+ren Pessoais Lazer
+cd Documentos
+ren Pessoais Lazer
+cd ..
+ren /y Pessoais Lazer
+cd Documentos
+ren Pessoais Lazer
+cd ..
+del Projetos
+dir
+del Documentos\Projetos.txt
+del Documentos\Pessoais.txt
+cd Documentos
+mkdir Projetos
+mkdir Pessoai
+del Documentos\Pessoai
+del Pessoai
+s
+del Pessoai
+S
+ren /y Pessoai Pessoais
+ren Pessoai Pessoais
+ren Pessoais Lazer
+cd Lazer
+copy con Viagem.txt
+
+del Viagem.txt
+copy con Viagem.txt
+Vaticano
+Italia
+Mexico
+Espanha
+Grecia
+cd ..
+dir
+doskey /history >> Nathaliaa.txt
