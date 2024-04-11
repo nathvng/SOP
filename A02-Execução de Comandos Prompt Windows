@@ -34,7 +34,7 @@ cd ..
 cd Atividade01
 copy Nota01.txt Backup
 copy Nota02.txt Backup
-NÆo
+NÃ†o
 copy Nota02.txt Backup
 Sim
 copy Nota01.txt Backup
